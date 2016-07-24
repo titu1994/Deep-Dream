@@ -28,7 +28,6 @@ It is a C# program written to more easily generate the arguments for the python 
 ```
 --setting : Setting can be one of "bad_trip", "dreamy" or "custom" 
 --iter : Number of iterations. Default is 5. Test the output with 5 iterations, and increase to improve results.
---init_image : Can be "content" or "noise". Default is "content", since it reduces reproduction noise.
 
 --continuity : If setting is custom, allows to select continuity factor
 --dream_l2 : If setting is custom, allows to select dream_l2 factor
