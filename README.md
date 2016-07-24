@@ -2,6 +2,11 @@
 
 Deep Dream modified implementation in Keras 1.0.6 using script provided at <a href="https://github.com/fchollet/keras/blob/master/examples/deep_dream.py">Deep Dream in Keras Examples</a>
 
+## Examples
+<img src="https://github.com/titu1994/Deep-Dream/blob/master/images/input/sky_clouds-wallpaper-1920x1080.jpg?raw=true" width=45% height=100%> <img src="https://github.com/titu1994/Deep-Dream/blob/master/images/output/Sky_at_iteration_5.png?raw=true" height=100% width=45%>
+
+<img src="https://github.com/titu1994/Deep-Dream/blob/master/images/input/golden_gate.jpg?raw=true" height=100% width=45%> <img src="https://github.com/titu1994/Deep-Dream/blob/master/images/output/Golden_Gate_at_iteration_5.png?raw=true" height=100% width=45%>
+
 ## Weights (VGG 16)
 
 Before running this script, download the weights for the VGG16 model at:
