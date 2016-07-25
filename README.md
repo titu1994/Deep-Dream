@@ -25,15 +25,16 @@ It is a C# program written to more easily generate the arguments for the python 
 
 ### Benefits 
 - Automatically executes the script based on the arguments.
-- Easy selection of images (Content, Style, Output Prefix)
+- Easy selection of images (Content, Output Prefix)
 - Easy parameter selection
 - Easily generate argument list, if command line execution is preferred. 
 
 ## Parameters
 ```
---setting : Setting can be one of "bad_trip", "dreamy" or "custom" 
+--setting : Setting can be one of "bad_trip", "dreamy" or "custom". 
 --iter : Number of iterations. Default is 5. Test the output with 5 iterations, and increase to improve results.
 
+# The below are used only if setting="custom"
 --continuity : If setting is custom, allows to select continuity factor
 --dream_l2 : If setting is custom, allows to select dream_l2 factor
 --jitter : If setting is custom, allows to select jitter factor
